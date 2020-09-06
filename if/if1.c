@@ -17,15 +17,15 @@ void main()
 
     if(a>b && a>c)
     {   
-	   printf("value of a is greater than b\n");
+	   printf("value of a is greater than b & c\n");
     }	
     if(b>c && b>a)
     { 
-	   printf("Value of b is greater than c\n");
+	   printf("Value of b is greater than c & a\n");
     }
     if(c>a && c>b)
     { 
-	    printf("Value of c greater than a\n ");
+	    printf("Value of c greater than a & b\n ");
     }    
 
 

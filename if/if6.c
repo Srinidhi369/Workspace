@@ -1,14 +1,13 @@
 
-
-
-
 #include<stdio.h>
 
 void main()
 {
-int month;
+	int month;
+
 	printf("Enter the month number 1 to 12 \n");
 	scanf("%d",&month);
+
 	if(month==1 || month==3 || month==5 || month==7 || month==8 || month==10 || month==11)
 	{
 		printf("31 days in this month\n");
@@ -27,4 +26,4 @@ int month;
 	}
 }
 
-		
+
