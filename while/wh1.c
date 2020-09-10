@@ -5,16 +5,14 @@
 
 void main()
 {
-	int num;
+	int num,i;
 	printf("Enter value of num:\n");
 	scanf("%d",&num);
-
-	printf("\nNatural numbers from 1 to %d\n",num);
-	num=1;
-	while(num<=15)
+	i=1;
+	while(i<=num)
 	{
-	printf("%d",num);	
-	num++;
+	printf("%d\n",i);	
+	i++;
 	}
 	
 }	
