@@ -4,21 +4,25 @@
 #include<stdio.h>
 void main()
 {
-	int n,i,row=1;
+	int n,i,row;
 	char ch ='*';
+
 	printf("enter value for row:\n");
 	scanf("%d",&n);
-	printf("*\n");
-	while(row<=n)
+
+	row=n;
+	printf("\n");
+
+	while(row >=0)
 		{
 			i=1;
-			while(i>=row)
+			while(i<=row)
 			{
-				i--;
+				i++;
 				printf("%c",ch);
 			}
 		printf("\n");
-		row++;
+		row--;
 		}
 }
 
