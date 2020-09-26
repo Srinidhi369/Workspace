@@ -6,12 +6,12 @@ void main()
 	int sum =0;
 	int i=0;
 	while(i<10)
-		{
-			if(a[i]%2==0)
-			{	
-				sum=sum+a[i];
-			}
-			i++;
+	{
+		if(a[i]%2==0)
+		{	
+			sum=sum+a[i];
 		}
+		i++;
+	}
 	printf("Sum of Even elements in array=%d\n",sum);
 }

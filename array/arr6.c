@@ -6,12 +6,12 @@ void main()
 	int Even=0;
 	int i=0;
 	while(i<10)
-		{
-			if(a[i]%2==0)
-			{	
-				Even++;
-			}
-			i++;
+	{
+		if(a[i]%2==0)
+		{	
+			Even++;
 		}
+		i++;
+	}
 	printf("Even elements in array=%d\n",Even);
 }
