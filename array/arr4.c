@@ -3,24 +3,22 @@
 void main()
 {
 	int a[5]={10,30,25,45,70};
-	int i=0,j=0,temp;
+	int i=0,temp;
 
 	printf("Array elements are :\n");
 
 	while(i<5)
 	{
-		if(a[i]>a[j])
-		{
-			a[i]=a[j];
-			i++;
-		}
-	}	
-	j = i+1;
-	while (j < 0)
+		printf("%d\n",a[i]);
+		i++;
+	}
+
+	i = 0;
+	while (i < 3)
 	{
 		temp    =   a[i];
-		a[i]    >   a[j];
-		a[j]  =   temp;
+		a[i]    =   a[4-i];
+		a[4-i]  =   temp;
 
 		i++;
 	}	
