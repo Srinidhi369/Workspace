@@ -6,14 +6,15 @@ void main()
 	int b[5]={25,30,50,60,90};
 	int j=0,temp;
 	int i = 0;
-	while(i < 0)
+
+	while(i < 5)
 	{
 		j=0;
 		while(j < 5)
 		{	
 			if(a[i]==b[j])
 			{
-				printf("Element %d is common:\n",b[i]);
+				printf("Element %d is common with index a[%d] and b[%d]\n",b[i], i,j);
 			}
 
 			j++;
